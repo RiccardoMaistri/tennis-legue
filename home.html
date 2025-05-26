@@ -1,0 +1,115 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-[#f8fcfa] justify-between group/design-root overflow-x-hidden"
+      style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'
+    >
+      <div>
+        <div class="flex items-center bg-[#f8fcfa] p-4 pb-2 justify-between">
+          <h2 class="text-[#0c1c17] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pl-12">Tornei</h2>
+          <div class="flex w-12 items-center justify-end">
+            <button
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 bg-transparent text-[#0c1c17] gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0"
+            >
+              <div class="text-[#0c1c17]" data-icon="Plus" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"></path>
+                </svg>
+              </div>
+            </button>
+          </div>
+        </div>
+        <h2 class="text-[#0c1c17] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Miei Tornei</h2>
+        <div class="flex flex-col px-4 py-6">
+          <div class="flex flex-col items-center gap-6">
+            <div
+              class="bg-center bg-no-repeat aspect-video bg-cover rounded-xl w-full max-w-[360px]"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDLWtwVCZW7AHXKsKQK62djVatMqiB_iN0ie_7r4MhWfB5keMtRF475q--v0FJMefZu6gMDQeR7VxL0rR57e0oiZ4rmVoitQzjNc020qQmy1SkVq_ja2rtbAqqvVgF7Lw_QQ5Gr1lr61A5SMvcH-7fCs6C_XBMdeu8o6ugeSXNQMJIH2hDAET4Owetbvgg_YZTn5cvo1an3nnl8hVmhd2XVaE0nYIZZBsdZ7FWqhjBuO4I8zp2-9tsGgL5tL4kg8e8-6SFiHUA2BeQ");'
+            ></div>
+            <div class="flex max-w-[480px] flex-col items-center gap-2">
+              <p class="text-[#0c1c17] text-lg font-bold leading-tight tracking-[-0.015em] max-w-[480px] text-center">Nessun torneo creato</p>
+              <p class="text-[#0c1c17] text-sm font-normal leading-normal max-w-[480px] text-center">Crea un torneo per iniziare a giocare con i tuoi amici</p>
+            </div>
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#e6f4ef] text-[#0c1c17] text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <span class="truncate">Crea torneo</span>
+            </button>
+          </div>
+        </div>
+        <h2 class="text-[#0c1c17] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Tornei Partecipati</h2>
+        <div class="flex items-center gap-4 bg-[#f8fcfa] px-4 min-h-[72px] py-2 justify-between">
+          <div class="flex flex-col justify-center">
+            <p class="text-[#0c1c17] text-base font-medium leading-normal line-clamp-1">Torneo di tennis estivo</p>
+            <p class="text-[#46a080] text-sm font-normal leading-normal line-clamp-2">2024-07-20</p>
+          </div>
+          <div class="shrink-0">
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-4 bg-[#e6f4ef] text-[#0c1c17] text-sm font-medium leading-normal w-fit"
+            >
+              <span class="truncate">Dettagli</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+          <label class="flex flex-col min-w-40 flex-1">
+            <input
+              placeholder="Inserisci codice invito"
+              class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#0c1c17] focus:outline-0 focus:ring-0 border-none bg-[#e6f4ef] focus:border-none h-14 placeholder:text-[#46a080] p-4 text-base font-normal leading-normal"
+              value=""
+            />
+          </label>
+        </div>
+        <div class="flex gap-2 border-t border-[#e6f4ef] bg-[#f8fcfa] px-4 pb-3 pt-2">
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#46a080]" href="#">
+            <div class="text-[#46a080] flex h-8 items-center justify-center" data-icon="House" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M218.83,103.77l-80-75.48a1.14,1.14,0,0,1-.11-.11,16,16,0,0,0-21.53,0l-.11.11L37.17,103.77A16,16,0,0,0,32,115.55V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V160h32v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V115.55A16,16,0,0,0,218.83,103.77ZM208,208H160V160a16,16,0,0,0-16-16H112a16,16,0,0,0-16,16v48H48V115.55l.11-.1L128,40l79.9,75.43.11.1Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#46a080] text-xs font-medium leading-normal tracking-[0.015em]">Home</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 rounded-full text-[#0c1c17]" href="#">
+            <div class="text-[#0c1c17] flex h-8 items-center justify-center" data-icon="Trophy" data-size="24px" data-weight="fill">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M232,64H208V56a16,16,0,0,0-16-16H64A16,16,0,0,0,48,56v8H24A16,16,0,0,0,8,80V96a40,40,0,0,0,40,40h3.65A80.13,80.13,0,0,0,120,191.61V216H96a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16H136V191.58c31.94-3.23,58.44-25.64,68.08-55.58H208a40,40,0,0,0,40-40V80A16,16,0,0,0,232,64ZM48,120A24,24,0,0,1,24,96V80H48v32q0,4,.39,8ZM232,96a24,24,0,0,1-24,24h-.5a81.81,81.81,0,0,0,.5-8.9V80h24Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#0c1c17] text-xs font-medium leading-normal tracking-[0.015em]">Tornei</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#46a080]" href="#">
+            <div class="text-[#46a080] flex h-8 items-center justify-center" data-icon="User" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#46a080] text-xs font-medium leading-normal tracking-[0.015em]">Profilo</p>
+          </a>
+        </div>
+        <div class="h-5 bg-[#f8fcfa]"></div>
+      </div>
+    </div>
+  </body>
+</html>
