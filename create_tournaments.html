@@ -20,85 +20,75 @@
     >
       <div>
         <div class="flex items-center bg-slate-50 p-4 pb-2 justify-between">
-          <h2 class="text-[#0d141c] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pl-12">Tournaments</h2>
-          <div class="flex w-12 items-center justify-end">
-            <button
-              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 bg-transparent text-[#0d141c] gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0"
-            >
-              <div class="text-[#0d141c]" data-icon="Plus" data-size="24px" data-weight="regular">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                  <path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"></path>
-                </svg>
-              </div>
-            </button>
+          <div class="text-[#0d141c] flex size-12 shrink-0 items-center" data-icon="X" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"
+              ></path>
+            </svg>
           </div>
+          <h2 class="text-[#0d141c] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pr-12">Create Tournament</h2>
         </div>
-        <div class="flex px-4 py-3">
-          <div class="flex h-10 flex-1 items-center justify-center rounded-lg bg-[#e7edf4] p-1">
-            <label
-              class="flex cursor-pointer h-full grow items-center justify-center overflow-hidden rounded-lg px-2 has-[:checked]:bg-slate-50 has-[:checked]:shadow-[0_0_4px_rgba(0,0,0,0.1)] has-[:checked]:text-[#0d141c] text-[#49739c] text-sm font-medium leading-normal"
-            >
-              <span class="truncate">Created by Me</span>
-              <input type="radio" name="227f575c-3191-4e10-8aa3-35272162a688" class="invisible w-0" value="Created by Me" checked="" />
-            </label>
-            <label
-              class="flex cursor-pointer h-full grow items-center justify-center overflow-hidden rounded-lg px-2 has-[:checked]:bg-slate-50 has-[:checked]:shadow-[0_0_4px_rgba(0,0,0,0.1)] has-[:checked]:text-[#0d141c] text-[#49739c] text-sm font-medium leading-normal"
-            >
-              <span class="truncate">Participating</span>
-              <input type="radio" name="227f575c-3191-4e10-8aa3-35272162a688" class="invisible w-0" value="Participating" />
-            </label>
-          </div>
+        <div class="flex w-full flex-row items-center justify-center gap-3 py-5">
+          <div class="h-2 w-2 rounded-full bg-[#0c7ff2]"></div>
+          <div class="h-2 w-2 rounded-full bg-[#cedbe8]"></div>
+          <div class="h-2 w-2 rounded-full bg-[#cedbe8]"></div>
         </div>
-        <div class="p-4">
-          <div class="flex items-stretch justify-between gap-4 rounded-lg">
-            <div class="flex flex-col gap-1 flex-[2_2_0px]">
-              <p class="text-[#49739c] text-sm font-normal leading-normal">Ongoing</p>
-              <p class="text-[#0d141c] text-base font-bold leading-tight">Summer Smash</p>
-              <p class="text-[#49739c] text-sm font-normal leading-normal">July 15, 2024 · 16 Participants</p>
-            </div>
-            <div
-              class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg flex-1"
-              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAAEqh2rWM2YtpUF-SmXZ4pjbPxSsq_t2GGJjQ6rTA4LYs5WI5MaZTXKbDBOIQxpvET2maWv77kwU_vrvX1nTPc0Z5OuG70ff4rY4lWeC1FHDtJ20RnWdN5c22yeCr7TA3c9f0M8Q7pMlcaWGSDy6Dp7bstfvcUNVRYjPs4HXaOJz-Y8HgcZzYyV30_WBkl_q7xUSndpcnmWOv62u1T2fa9PKpywRhUwdCCUJT6u7r2HrlPYcG9lr5El84MTH727ZWFEr9YTdzlVn2I");'
-            ></div>
-          </div>
+        <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+          <label class="flex flex-col min-w-40 flex-1">
+            <p class="text-[#0d141c] text-base font-medium leading-normal pb-2">Tournament Name</p>
+            <input
+              placeholder="Enter tournament name"
+              class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141c] focus:outline-0 focus:ring-0 border-none bg-[#e7edf4] focus:border-none h-14 placeholder:text-[#49739c] p-4 text-base font-normal leading-normal"
+              value=""
+            />
+          </label>
         </div>
-        <div class="p-4">
-          <div class="flex items-stretch justify-between gap-4 rounded-lg">
-            <div class="flex flex-col gap-1 flex-[2_2_0px]">
-              <p class="text-[#49739c] text-sm font-normal leading-normal">Completed</p>
-              <p class="text-[#0d141c] text-base font-bold leading-tight">Spring Open</p>
-              <p class="text-[#49739c] text-sm font-normal leading-normal">May 20, 2024 · 32 Participants</p>
-            </div>
-            <div
-              class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg flex-1"
-              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuByPA2Isxm4OurY2eSEBx5lbJrqiiZzyQgOG1xWndHlZq8C71wjaxr_T425y3GXFkoKD0HbWZ5hJ8P2qByAMF9e23KJcbqMGyjtsXVgieeqsZ6tldk6TKXTUsiOmBcy5s0aYMyE_p1lxRj2v-InMcWtYQ6Rkf-S8U1iyJob6DTl9r-hYJOUZkX4bne5vRvl77fIH955a1n6pZEEuveRXz740ZIA2kQZP6hiqhzl6xQizwBIC6-4HAJAIw3u8D42drxC4Am1_r9aV9Tv");'
-            ></div>
-          </div>
+        <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+          <label class="flex flex-col min-w-40 flex-1">
+            <p class="text-[#0d141c] text-base font-medium leading-normal pb-2">Location</p>
+            <input
+              placeholder="Enter location"
+              class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141c] focus:outline-0 focus:ring-0 border-none bg-[#e7edf4] focus:border-none h-14 placeholder:text-[#49739c] p-4 text-base font-normal leading-normal"
+              value=""
+            />
+          </label>
         </div>
-        <div class="p-4">
-          <div class="flex items-stretch justify-between gap-4 rounded-lg">
-            <div class="flex flex-col gap-1 flex-[2_2_0px]">
-              <p class="text-[#49739c] text-sm font-normal leading-normal">Pending</p>
-              <p class="text-[#0d141c] text-base font-bold leading-tight">Fall Classic</p>
-              <p class="text-[#49739c] text-sm font-normal leading-normal">October 5, 2024 · 8 Participants</p>
-            </div>
-            <div
-              class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg flex-1"
-              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD7LZQBA8v99DHE9N9HytBDunquWSlO2-k5tVA-Tuy-Omcm7g5Lkj4Tv6SQoCcCubO4ZLTZdz0Q1VaSQwCDTtoeeYFGCGGsTJz0uMSpyTS8VfxR3keWpIszZnIxjj46-fpbzbkO2gj7eQLrO_Yu1WmUyzosnuRuFRin1k4yUwzrjWZZsMFc9GnaoQFGQdQa8Bk3TWnkEY8XIotBsdKj4KUi5lGzrUaqAA_atRyqU5CixtyN7IuMK-5MZNytlbaEMHWNiEo6QMPFlskQ");'
-            ></div>
-          </div>
+        <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+          <label class="flex flex-col min-w-40 flex-1">
+            <p class="text-[#0d141c] text-base font-medium leading-normal pb-2">Start Date</p>
+            <input
+              placeholder="Select date"
+              class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141c] focus:outline-0 focus:ring-0 border-none bg-[#e7edf4] focus:border-none h-14 placeholder:text-[#49739c] p-4 text-base font-normal leading-normal"
+              value=""
+            />
+          </label>
+          <label class="flex flex-col min-w-40 flex-1">
+            <p class="text-[#0d141c] text-base font-medium leading-normal pb-2">End Date</p>
+            <input
+              placeholder="Select date"
+              class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141c] focus:outline-0 focus:ring-0 border-none bg-[#e7edf4] focus:border-none h-14 placeholder:text-[#49739c] p-4 text-base font-normal leading-normal"
+              value=""
+            />
+          </label>
+        </div>
+        <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+          <label class="flex flex-col min-w-40 flex-1">
+            <p class="text-[#0d141c] text-base font-medium leading-normal pb-2">Max Participants</p>
+            <input
+              placeholder="Enter max participants"
+              class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141c] focus:outline-0 focus:ring-0 border-none bg-[#e7edf4] focus:border-none h-14 placeholder:text-[#49739c] p-4 text-base font-normal leading-normal"
+              value=""
+            />
+          </label>
         </div>
       </div>
       <div>
-        <div class="flex justify-end overflow-hidden px-5 pb-5">
+        <div class="flex px-4 py-3">
           <button
-            class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-14 bg-[#0c7ff2] text-slate-50 text-base font-bold leading-normal tracking-[0.015em] min-w-0 px-2 gap-4 pl-4 pr-6"
+            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 flex-1 bg-[#0c7ff2] text-slate-50 text-base font-bold leading-normal tracking-[0.015em]"
           >
-            <div class="text-slate-50" data-icon="Plus" data-size="24px" data-weight="regular">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                <path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"></path>
-              </svg>
-            </div>
+            <span class="truncate">Next</span>
           </button>
         </div>
         <div class="h-5 bg-slate-50"></div>
