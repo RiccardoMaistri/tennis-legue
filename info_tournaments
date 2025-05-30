@@ -1,0 +1,145 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Manrope%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-slate-50 justify-between group/design-root overflow-x-hidden"
+      style='font-family: Manrope, "Noto Sans", sans-serif;'
+    >
+      <div>
+        <div class="flex items-center bg-slate-50 p-4 pb-2 justify-between">
+          <div class="text-[#0d141c] flex size-12 shrink-0 items-center" data-icon="ArrowLeft" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"></path>
+            </svg>
+          </div>
+          <h2 class="text-[#0d141c] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pr-12">Tournament</h2>
+        </div>
+        <div class="pb-3">
+          <div class="flex border-b border-[#cedbe8] px-4 gap-8">
+            <a class="flex flex-col items-center justify-center border-b-[3px] border-b-[#0c7ff2] text-[#0d141c] pb-[13px] pt-4" href="#">
+              <p class="text-[#0d141c] text-sm font-bold leading-normal tracking-[0.015em]">Participants</p>
+            </a>
+            <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#49739c] pb-[13px] pt-4" href="#">
+              <p class="text-[#49739c] text-sm font-bold leading-normal tracking-[0.015em]">Schedule</p>
+            </a>
+            <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#49739c] pb-[13px] pt-4" href="#">
+              <p class="text-[#49739c] text-sm font-bold leading-normal tracking-[0.015em]">Rules</p>
+            </a>
+            <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#49739c] pb-[13px] pt-4" href="#">
+              <p class="text-[#49739c] text-sm font-bold leading-normal tracking-[0.015em]">Results</p>
+            </a>
+          </div>
+        </div>
+        <h2 class="text-[#0d141c] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Participants</h2>
+        <div class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-14 w-fit"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCw090Hi1xAeptMvu8Wwz3ls-HlGThaErI02j2HoeKGbwibeC3SVcIEaGYREVub73inM8Q6kMq5pMPK0iC4IUsW3bgHt4j8fwKtgGpAHuRtFt60N8UWs76d6KDN0FJmH3vlo-2_ah_mwFn-Ud3n7Xt9ZZTlCY3fxLVxWTYQXVR0MrarTqyLfsg5OXLPfCrpyy4bL2JchFC-k4oxUMqXDWzg7CzAdYpBSp2At7Z6TV7F8R8FyjQLIowscD4ErpzmquwW9JhUsaND2QIC");'
+          ></div>
+          <div class="flex flex-col justify-center">
+            <p class="text-[#0d141c] text-base font-medium leading-normal line-clamp-1">Ethan Carter</p>
+            <p class="text-[#49739c] text-sm font-normal leading-normal line-clamp-2">Confirmed</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-14 w-fit"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCQpFmD3t7yeD_LHeFVq6cO2UwL_DxTar-CWVd33afVjIXQgUOq-cpvfEOicVnSpfTl65GXTAvo_pyn0gm6SZAqYv5fZv1KH_gZ4m2P3geNMTIAyACfF3iOdRRN5OsmR6s0jO-GO9T_o09et7n5WcBD22KR1ImPdtIWShjfzBnBi87lzRC_Gt4VHk0DH9yyBxKifVvpyPA_QNDHTzw_16GMnZ89aoLxPaESRab6gz5HsUwqovDmDFfHrGGSdBkVi_r1OWtWiHKoZw1o");'
+          ></div>
+          <div class="flex flex-col justify-center">
+            <p class="text-[#0d141c] text-base font-medium leading-normal line-clamp-1">Olivia Bennett</p>
+            <p class="text-[#49739c] text-sm font-normal leading-normal line-clamp-2">Confirmed</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-14 w-fit"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAKTHYKzqDkoiLNHm7adW6WXF-cGo2ZcdHP0zFk86ZHOlIKFj8qAVFyRxSfUryOWJw8WZvU3sg8MUob3IlbjXTpkOqBofCffTLhGKh4U8h06FA1XRPRyXBKTcd9PFym5kTC_LAyK41gBsFJDRAMcdgzi6ionTQsk8Pqu3xEciRkaWv1X9Rq5dKs7R34ClR__WIcKXVsWfaI6oSPLYqktnDzKyMdhffzqq3hVXyx9-VSSGrHjWHTgm-mXu5Pw-FALOT48u9PcKvpwUaz");'
+          ></div>
+          <div class="flex flex-col justify-center">
+            <p class="text-[#0d141c] text-base font-medium leading-normal line-clamp-1">Noah Thompson</p>
+            <p class="text-[#49739c] text-sm font-normal leading-normal line-clamp-2">Confirmed</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-14 w-fit"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAyqLzAylH04Qbotr1IZiRXgIG_qCXSSaG7WJVAMtgq7oIZT7J5FFa_yhrv70_0fph6xkVjRIcTsuZL-iCBSWvwYHIMR_jSNSHNj2I7r_AoYNsD3jN0qoTmssyINn7XHr_yvYfaZb3lRyslO_tqOaSNC3wHg5-12O5pTEEPSKJdp1yL8Qm0ltjUP4YwLng1amApfhvf9fmPMKMvM1We2UB0m-xPNTq1wS_GBZP3UGycIHHHE8vGwuLhR6yyKIMaUGevMURChjwWzePm");'
+          ></div>
+          <div class="flex flex-col justify-center">
+            <p class="text-[#0d141c] text-base font-medium leading-normal line-clamp-1">Ava Martinez</p>
+            <p class="text-[#49739c] text-sm font-normal leading-normal line-clamp-2">Confirmed</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-14 w-fit"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAGhJWyHydhvggzOj0FHDm_EQON-Xz1i4pbNF4kzytmnlkkf4C7WvnkquxVEkBjHxJsEnsnyf1BLg8MuaDgi9CXfQD4LzkZIyloUqnnxNWqgRiuWBt8tGyT8zoOEFbAkY3EZT7gkPkabDSb-DKQBPZl3zn8ijHXeCi4zFR9phDuLq9aVDdZTrrvc2HXaWf9on7jAtRvuAryADM3VEmp1jK4Yo94dLJlrQFol0AqqoxKqMIDZYzF-Q2iE4EmPS5dTMk9FDAFrrONKLrV");'
+          ></div>
+          <div class="flex flex-col justify-center">
+            <p class="text-[#0d141c] text-base font-medium leading-normal line-clamp-1">Liam Harper</p>
+            <p class="text-[#49739c] text-sm font-normal leading-normal line-clamp-2">Confirmed</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 bg-slate-50 px-4 min-h-[72px] py-2">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-14 w-fit"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAPt5SYMJSfNTft0l5pQ65IBg9LsYgpOWM2BeNLijyw5JeanftJnJc4srQ7ni_06HZ1m6ykI2tEMLbdb88-NWMHz9Zd2MbzEimU8ZUoJxy3S77iOlH65r0k8LNZ-DiyE7SHPFIlI1J5leX6oZLGNk5D1wiIJ98YWT-xZvCgcN4fyKslhoZZ7sRguStkzWKt0Hd08u3KnvFGBfIkb4E43hWXWkzWm4R8s-3hLqLlWbDiNwT6SoQs8B6uuZ00hXwws1FoyFidVWk5uhNb");'
+          ></div>
+          <div class="flex flex-col justify-center">
+            <p class="text-[#0d141c] text-base font-medium leading-normal line-clamp-1">Isabella Clark</p>
+            <p class="text-[#49739c] text-sm font-normal leading-normal line-clamp-2">Confirmed</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="flex gap-2 border-t border-[#e7edf4] bg-slate-50 px-4 pb-3 pt-2">
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#49739c]" href="#">
+            <div class="text-[#49739c] flex h-8 items-center justify-center" data-icon="House" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M218.83,103.77l-80-75.48a1.14,1.14,0,0,1-.11-.11,16,16,0,0,0-21.53,0l-.11.11L37.17,103.77A16,16,0,0,0,32,115.55V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V160h32v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V115.55A16,16,0,0,0,218.83,103.77ZM208,208H160V160a16,16,0,0,0-16-16H112a16,16,0,0,0-16,16v48H48V115.55l.11-.1L128,40l79.9,75.43.11.1Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#49739c] text-xs font-medium leading-normal tracking-[0.015em]">Home</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 rounded-full text-[#0d141c]" href="#">
+            <div class="text-[#0d141c] flex h-8 items-center justify-center" data-icon="Trophy" data-size="24px" data-weight="fill">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M232,64H208V56a16,16,0,0,0-16-16H64A16,16,0,0,0,48,56v8H24A16,16,0,0,0,8,80V96a40,40,0,0,0,40,40h3.65A80.13,80.13,0,0,0,120,191.61V216H96a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16H136V191.58c31.94-3.23,58.44-25.64,68.08-55.58H208a40,40,0,0,0,40-40V80A16,16,0,0,0,232,64ZM48,120A24,24,0,0,1,24,96V80H48v32q0,4,.39,8ZM232,96a24,24,0,0,1-24,24h-.5a81.81,81.81,0,0,0,.5-8.9V80h24Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#0d141c] text-xs font-medium leading-normal tracking-[0.015em]">Tournaments</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#49739c]" href="#">
+            <div class="text-[#49739c] flex h-8 items-center justify-center" data-icon="User" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#49739c] text-xs font-medium leading-normal tracking-[0.015em]">Profile</p>
+          </a>
+        </div>
+        <div class="h-5 bg-slate-50"></div>
+      </div>
+    </div>
+  </body>
+</html>
