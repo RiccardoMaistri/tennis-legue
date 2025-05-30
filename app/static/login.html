@@ -31,6 +31,7 @@
         <p class="text-[#0c1c17] text-base font-normal leading-normal pb-3 pt-1 px-4 text-center">Manage your private tennis tournaments with ease. Sign in to get started.</p>
         <div class="flex px-4 py-3 justify-center">
           <button
+            id="googleSignInBtn" <!-- Added ID here -->
             class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-5 bg-[#019863] text-[#f8fcfa] gap-2 pl-5 text-base font-bold leading-normal tracking-[0.015em]"
           >
             <div class="text-[#f8fcfa]" data-icon="GoogleLogo" data-size="24px" data-weight="regular">
@@ -47,5 +48,45 @@
         <div class="h-5 bg-[#f8fcfa]"></div>
       </div>
     </div>
+
+    <script>
+      console.log("Placeholder: Google Sign-In JavaScript logic would go here. This involves using the Google Identity Services library (gsi.client).");
+
+      const googleSignInButton = document.getElementById('googleSignInBtn');
+      if (googleSignInButton) {
+        googleSignInButton.addEventListener('click', async (event) => {
+          event.preventDefault(); // Prevent default button action
+          console.log("'Sign in with Google' button clicked. Simulating login...");
+
+          try {
+            const response = await fetch('/auth/login', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({ token: "fake_google_token_for_testing" }),
+            });
+
+            if (response.ok) {
+              const data = await response.json();
+              console.log("Fake login successful. JWT received:", data);
+              // Store the JWT (e.g., in localStorage)
+              localStorage.setItem('tennisTournamentAppToken', data.access_token);
+              console.log("Redirecting to tournaments.html...");
+              window.location.href = '/static/tournaments.html'; // Make sure path is correct
+            } else {
+              const errorData = await response.json();
+              console.error("Fake login failed:", response.status, errorData);
+              alert("Fake login failed: " + (errorData.detail || "Unknown error"));
+            }
+          } catch (error) {
+            console.error("Error during fake login:", error);
+            alert("Error during fake login: " + error.message);
+          }
+        });
+      } else {
+        console.error("Could not find the Google Sign-In button by ID 'googleSignInBtn'.");
+      }
+    </script>
   </body>
 </html>
