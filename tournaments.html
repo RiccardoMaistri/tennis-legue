@@ -5,7 +5,7 @@
       rel="stylesheet"
       as="style"
       onload="this.rel='stylesheet'"
-      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Manrope%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
     />
 
     <title>Stitch Design</title>
@@ -15,17 +15,17 @@
   </head>
   <body>
     <div
-      class="relative flex size-full min-h-screen flex-col bg-slate-50 justify-between group/design-root overflow-x-hidden"
-      style='font-family: Manrope, "Noto Sans", sans-serif;'
+      class="relative flex size-full min-h-screen flex-col bg-[#141a1f] dark justify-between group/design-root overflow-x-hidden"
+      style='font-family: Inter, "Noto Sans", sans-serif;'
     >
       <div>
-        <div class="flex items-center bg-slate-50 p-4 pb-2 justify-between">
-          <h2 class="text-[#0d141c] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pl-12">Tournaments</h2>
+        <div class="flex items-center bg-[#141a1f] p-4 pb-2 justify-between">
+          <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pl-12">Tournaments</h2>
           <div class="flex w-12 items-center justify-end">
             <button
-              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 bg-transparent text-[#0d141c] gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0"
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 bg-transparent text-white gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0"
             >
-              <div class="text-[#0d141c]" data-icon="Plus" data-size="24px" data-weight="regular">
+              <div class="text-white" data-icon="Plus" data-size="24px" data-weight="regular">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
                   <path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"></path>
                 </svg>
@@ -33,75 +33,62 @@
             </button>
           </div>
         </div>
-        <div class="flex px-4 py-3">
-          <div class="flex h-10 flex-1 items-center justify-center rounded-lg bg-[#e7edf4] p-1">
-            <label
-              class="flex cursor-pointer h-full grow items-center justify-center overflow-hidden rounded-lg px-2 has-[:checked]:bg-slate-50 has-[:checked]:shadow-[0_0_4px_rgba(0,0,0,0.1)] has-[:checked]:text-[#0d141c] text-[#49739c] text-sm font-medium leading-normal"
-            >
-              <span class="truncate">Created by Me</span>
-              <input type="radio" name="227f575c-3191-4e10-8aa3-35272162a688" class="invisible w-0" value="Created by Me" checked="" />
-            </label>
-            <label
-              class="flex cursor-pointer h-full grow items-center justify-center overflow-hidden rounded-lg px-2 has-[:checked]:bg-slate-50 has-[:checked]:shadow-[0_0_4px_rgba(0,0,0,0.1)] has-[:checked]:text-[#0d141c] text-[#49739c] text-sm font-medium leading-normal"
-            >
-              <span class="truncate">Participating</span>
-              <input type="radio" name="227f575c-3191-4e10-8aa3-35272162a688" class="invisible w-0" value="Participating" />
-            </label>
+        <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Tournaments created by me</h2>
+        <div class="flex items-center gap-4 bg-[#141a1f] px-4 py-3">
+          <div
+            class="bg-center bg-no-repeat aspect-video bg-cover rounded-lg h-14 w-fit"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCZiCQjQJgBghIGNLycRtVpFe3BhICsffNR4lfXGeei4bCFLFCahTn5lCEh_ozustGKbA8UqMoijcTGxePWYTVfYA8oMwQLEIewqAK3r31HDL0RrzhMWgudxvcqg6ASlQbweAtoYwz7s7tPiWNR_dSNmav4AVe6RUMEb_pqCAPlgZlz2mtUsZkDmgn89GqLP1ldsZ46SOO_kJYDWI5xiZgh9iOkGiPq62Vn1aLalyGkMIsIOqnG-7XPr0Yvii9DAb2YNCDvMjVYDcJE");'
+          ></div>
+          <div class="flex flex-col justify-center">
+            <p class="text-white text-base font-medium leading-normal line-clamp-1">Summer Smash</p>
+            <p class="text-[#9daebe] text-sm font-normal leading-normal line-clamp-2">July 15 - 20, 2024</p>
           </div>
         </div>
-        <div class="p-4">
-          <div class="flex items-stretch justify-between gap-4 rounded-lg">
-            <div class="flex flex-col gap-1 flex-[2_2_0px]">
-              <p class="text-[#49739c] text-sm font-normal leading-normal">Ongoing</p>
-              <p class="text-[#0d141c] text-base font-bold leading-tight">Summer Smash</p>
-              <p class="text-[#49739c] text-sm font-normal leading-normal">July 15, 2024 · 16 Participants</p>
-            </div>
-            <div
-              class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg flex-1"
-              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAAEqh2rWM2YtpUF-SmXZ4pjbPxSsq_t2GGJjQ6rTA4LYs5WI5MaZTXKbDBOIQxpvET2maWv77kwU_vrvX1nTPc0Z5OuG70ff4rY4lWeC1FHDtJ20RnWdN5c22yeCr7TA3c9f0M8Q7pMlcaWGSDy6Dp7bstfvcUNVRYjPs4HXaOJz-Y8HgcZzYyV30_WBkl_q7xUSndpcnmWOv62u1T2fa9PKpywRhUwdCCUJT6u7r2HrlPYcG9lr5El84MTH727ZWFEr9YTdzlVn2I");'
-            ></div>
+        <div class="flex items-center gap-4 bg-[#141a1f] px-4 py-3">
+          <div
+            class="bg-center bg-no-repeat aspect-video bg-cover rounded-lg h-14 w-fit"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC-CklQ-rpESBjoEr09lY4q10aEUB2zOEhYzjVVEIO5vYsIwyP3cTxXnTGrgxmXAOVKUgCHQqLbnqgu6ULzaOZCboParaskpf6FIb5pHPFzcJ9SS1QJZbyfKX7p-_XhAARNK9sHTfVTEuonWP_fixeYXwAk1C5b8NnKInCkmeOWmsxXj08ZUQZHFWA2wjBpHF9_EJmpxtGtfh906YeGEJR_qpLRuYO099tS1j3-kIZm2Ntwp1uw2M46CMnPfl-ui5kZ7NbciJLNypWH");'
+          ></div>
+          <div class="flex flex-col justify-center">
+            <p class="text-white text-base font-medium leading-normal line-clamp-1">Spring Open</p>
+            <p class="text-[#9daebe] text-sm font-normal leading-normal line-clamp-2">April 10 - 15, 2024</p>
           </div>
         </div>
-        <div class="p-4">
-          <div class="flex items-stretch justify-between gap-4 rounded-lg">
-            <div class="flex flex-col gap-1 flex-[2_2_0px]">
-              <p class="text-[#49739c] text-sm font-normal leading-normal">Completed</p>
-              <p class="text-[#0d141c] text-base font-bold leading-tight">Spring Open</p>
-              <p class="text-[#49739c] text-sm font-normal leading-normal">May 20, 2024 · 32 Participants</p>
-            </div>
-            <div
-              class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg flex-1"
-              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuByPA2Isxm4OurY2eSEBx5lbJrqiiZzyQgOG1xWndHlZq8C71wjaxr_T425y3GXFkoKD0HbWZ5hJ8P2qByAMF9e23KJcbqMGyjtsXVgieeqsZ6tldk6TKXTUsiOmBcy5s0aYMyE_p1lxRj2v-InMcWtYQ6Rkf-S8U1iyJob6DTl9r-hYJOUZkX4bne5vRvl77fIH955a1n6pZEEuveRXz740ZIA2kQZP6hiqhzl6xQizwBIC6-4HAJAIw3u8D42drxC4Am1_r9aV9Tv");'
-            ></div>
+        <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Tournaments I participate in</h2>
+        <div class="flex items-center gap-4 bg-[#141a1f] px-4 py-3">
+          <div
+            class="bg-center bg-no-repeat aspect-video bg-cover rounded-lg h-14 w-fit"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAXKzZDV2DtOaXK_DCVOaxUrO_4lzGBz95_oPagTlu5WaRoIHKPJbyuPQXYYx2n-IHL8cDz-ReHQQ8nBfbGmhoLLl0tqTVbDSzkX4ggC0dMWZrSejr9aBl1YZmf_il5Rj_EbgmV2UUOvZ0YOqiDaX7Wn8sXUgo90SEyM1Nl9T5opOptHxe1NnJtCcsDjej4uKX-Ra0sU6fyDFXCpb0NsigZkM9vM1Sqb3Ec-T5Hy0IBGnb8HAQbw1BKhkTUykes92tnfpw2o4-OI5Fs");'
+          ></div>
+          <div class="flex flex-col justify-center">
+            <p class="text-white text-base font-medium leading-normal line-clamp-1">Autumn Classic</p>
+            <p class="text-[#9daebe] text-sm font-normal leading-normal line-clamp-2">October 5 - 10, 2024</p>
           </div>
         </div>
-        <div class="p-4">
-          <div class="flex items-stretch justify-between gap-4 rounded-lg">
-            <div class="flex flex-col gap-1 flex-[2_2_0px]">
-              <p class="text-[#49739c] text-sm font-normal leading-normal">Pending</p>
-              <p class="text-[#0d141c] text-base font-bold leading-tight">Fall Classic</p>
-              <p class="text-[#49739c] text-sm font-normal leading-normal">October 5, 2024 · 8 Participants</p>
-            </div>
-            <div
-              class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg flex-1"
-              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD7LZQBA8v99DHE9N9HytBDunquWSlO2-k5tVA-Tuy-Omcm7g5Lkj4Tv6SQoCcCubO4ZLTZdz0Q1VaSQwCDTtoeeYFGCGGsTJz0uMSpyTS8VfxR3keWpIszZnIxjj46-fpbzbkO2gj7eQLrO_Yu1WmUyzosnuRuFRin1k4yUwzrjWZZsMFc9GnaoQFGQdQa8Bk3TWnkEY8XIotBsdKj4KUi5lGzrUaqAA_atRyqU5CixtyN7IuMK-5MZNytlbaEMHWNiEo6QMPFlskQ");'
-            ></div>
+        <div class="flex items-center gap-4 bg-[#141a1f] px-4 py-3">
+          <div
+            class="bg-center bg-no-repeat aspect-video bg-cover rounded-lg h-14 w-fit"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB8Lo3C6mOGTGmiXt_L2JBt2FtP89EJ5z1ZAB5kftGrXU77YdpM6sFMJbxnxtCHx0PsBb54tlT-k0V-1q_W2f1ot6JXapCyYR6Yq68qrKrqMq1sqx_e-X4kp0h7FHPs6W9zFlCkCFvbn9GYDB-kOFyundLCBR1DD9k8LDZl9Kwzb4vUGno5Omkl_bQOGhMwdi2C190TFkBsGr7bD9-5jp1zjeyTkkORpsp0kfQipn-Uh6KDxPxljGKOBVZYd_c9MIFBDoL__AD1bbvR");'
+          ></div>
+          <div class="flex flex-col justify-center">
+            <p class="text-white text-base font-medium leading-normal line-clamp-1">Winter Invitational</p>
+            <p class="text-[#9daebe] text-sm font-normal leading-normal line-clamp-2">January 20 - 25, 2025</p>
           </div>
         </div>
       </div>
       <div>
         <div class="flex justify-end overflow-hidden px-5 pb-5">
           <button
-            class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-14 bg-[#0c7ff2] text-slate-50 text-base font-bold leading-normal tracking-[0.015em] min-w-0 px-2 gap-4 pl-4 pr-6"
+            class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-14 bg-[#dce8f3] text-[#141a1f] text-base font-bold leading-normal tracking-[0.015em] min-w-0 px-2 gap-4 pl-4 pr-6"
           >
-            <div class="text-slate-50" data-icon="Plus" data-size="24px" data-weight="regular">
+            <div class="text-[#141a1f]" data-icon="Plus" data-size="24px" data-weight="regular">
               <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
                 <path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"></path>
               </svg>
             </div>
           </button>
         </div>
-        <div class="h-5 bg-slate-50"></div>
+        <div class="h-5 bg-[#141a1f]"></div>
       </div>
     </div>
   </body>
